@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+    <head>
+        <title>Blaze Fugina</title>
+        <link rel="stylesheet" href="styles/style.css">
+        <script type="text/javascript" src="vendors/angular.js"></script>
+        <script type="text/javascript" src="vendors/angular-route/angular-route.min.js"></script>
+        <link href="vendors/angular-material/angular-material.css" rel="stylesheet" type="text/css">
+        <script src="vendors/angular-animate.min.js" charset="utf-8"></script>
+        <script src="vendors/angular-aria.min.js" charset="utf-8"></script>
+        <script src="vendors/angular-messages.min.js" charset="utf-8"></script>
+        <script src="vendors/angular-material/angular-material.min.js" charset="utf-8"></script>
+        <script src="scripts/client.js"></script>
+        <script src="scripts/controllers/home.controller.js"></script>
+        <script src="scripts/controllers/nav.controller.js"></script>
+        <script src="scripts/controllers/project.controller.js"></script>
+    </head>
+    <body ng-app="myApp">
+            <header ng-include="'/views/partials/header.html'"></header>
+        <div ng-include="'views/partials/nav.html'"></div>
+        <main ng-view></main>
+    </body>
+</html>
