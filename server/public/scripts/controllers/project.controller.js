@@ -14,4 +14,10 @@ myApp.controller('ProjectController', function($interval){
 
     pc.pitchAidGitHub="https://github.com/Blaze90809/pitch-aid";
 
+    pc.kioskURL="https://floating-fjord-79924.herokuapp.com";
+
+    pc.kioskGitHub="https://github.com/Blaze90809/kiosk-app";
+
+    pc.kioskPath="../images/kiosk.png"
+
 });//End Home Controller

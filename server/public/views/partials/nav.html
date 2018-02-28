@@ -1,15 +1,9 @@
-<div class="navbar" ng-controller="NavController as nc">
+<div md-toolbar ng-cloak ng-controller="NavController as nc">
     <div class="container">
-        <ul>
-            <li>
-                <a href="#/home">Home Page</a>
-            </li>
-            <li>
-                <a href="#/career">Career Switch</a>
-            </li>
-            <li>
-                <a href="#/projects">Projects</a>
-            </li>
-        </ul>
+        <md-nav-bar md-no-ink-bar="disableInkBar" md-selected-nav-item="nc.currentNavItem" nav-bar-aria-label="navigation links">
+            <md-nav-item md-nav-href='/#/' name="/">Home Page</md-nav-item>
+            <md-nav-item md-nav-href='/#/career' name="/career">Career Switch</md-nav-item>
+            <md-nav-item md-nav-href='/#/projects' name="/projects">Projects</md-nav-item>
+        </md-nav-bar>
     </div>
 </div>
