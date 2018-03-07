@@ -118,3 +118,8 @@ md-nav-bar-list .md-nav-bar-list {
 #cardDiv {
   margin: 0 auto;
 }
+
+.md-card-img {
+  height: 350px;
+  width: auto;
+}

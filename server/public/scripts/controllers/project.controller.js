@@ -20,4 +20,11 @@ myApp.controller('ProjectController', function($interval){
 
     pc.kioskPath="../images/kiosk.png"
 
+    pc.percentBackGitHub="https://github.com/Blaze90809/react-app-percent-back";
+
+    pc.percentBackURL="https://infinite-ridge-76151.herokuapp.com/"
+
+    pc.percentBackPath="../images/percentback.png";
+    
+
 });//End Home Controller
