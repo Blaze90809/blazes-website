@@ -119,7 +119,11 @@ md-nav-bar-list .md-nav-bar-list {
   margin: 0 auto;
 }
 
-.md-card-img {
-  height: 350px;
+.cardImg {
   width: auto;
+  height: 250px;
+}
+
+md-card {
+  height: 700px;
 }
