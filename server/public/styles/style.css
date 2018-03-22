@@ -114,16 +114,3 @@ md-nav-bar .md-nav-bar {
 md-nav-bar-list .md-nav-bar-list {
   padding-left: 100px;
 }
-
-#cardDiv {
-  margin: 0 auto;
-}
-
-.cardImg {
-  width: auto;
-  height: 250px;
-}
-
-md-card {
-  height: 700px;
-}
